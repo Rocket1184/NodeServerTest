@@ -9,10 +9,6 @@
   "scripts": {
     "start": "node server.js"
   },
-  // "dependencies": {
-  //   "fs": "3.x",
-  //   "http": "3.x"
-  // },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Rocket1184/NodeServerTest.git"
