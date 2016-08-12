@@ -30,7 +30,11 @@ var server = http.createServer((request, response) => {
     }
 });
 
-var serverPort = 2333;
+// Heroku dynamically assigns your app a port,
+// so you can't set the port to a fixed number.
+// Heroku adds the port to the env,
+// so you can pull it from there.
+var serverPort = process.env.PORT || 5000;
 
 server.listen(serverPort);
 
