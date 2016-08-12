@@ -3,11 +3,16 @@
   "version": "1.0.0",
   "description": "my 1st node server",
   "engines": {
-    "node": "6.3.1"
+    "node": "6.3.1",
+    "npm": "3.10.3"
   },
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
+  },
+  "dependencies": {
+    "fs": ">= 0.0.1",
+    "http": ">= 0.0.1"
   },
   "repository": {
     "type": "git",
