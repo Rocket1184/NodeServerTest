@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Rocket1184/NodeServerTest/issues"
   },
-  "homepage": "https://github.com/Rocket1184/NodeServerTest#readme"
+  "homepage": "https://github.com/Rocket1184/NodeServerTest#readme",
+  "dependencies": {
+  "fs": "3.10.3",
+  "http": "3.10.3"
 }
