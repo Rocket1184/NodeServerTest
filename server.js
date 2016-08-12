@@ -23,11 +23,10 @@ var server = http.createServer((request, response) => {
             response.end();
         } else if (request.url === '/favicon.ico') {
             fs.createReadStream('./favicon.ico').pipe(response);
+        } else {
+            response.writeHead(200, { 'Content-Type': 'text/html' });
+            fs.createReadStream('./404.html').pipe(response);
         }
-
-    } else {
-        response.writeHead(200, { 'Content-Type': 'text/html' });
-        fs.createReadStream('./404.html').pipe(response);
     }
 });
 
