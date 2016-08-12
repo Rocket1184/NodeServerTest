@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Rocket1184/NodeServerTest#readme",
   "dependencies": {
-  "fs": "3.10.3",
-  "http": "3.10.3"
+    "fs": "3.10.3",
+    "http": "3.10.3"
+  }
 }
