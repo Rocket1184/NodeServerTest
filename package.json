@@ -1,0 +1,20 @@
+{
+  "name": "node-server-test",
+  "version": "1.0.0",
+  "description": "my 1st node server",
+  "main": "server.js",
+  "scripts": {
+    "test": "r0cka-server",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rocket1184/NodeServerTest.git"
+  },
+  "author": "r0cka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rocket1184/NodeServerTest/issues"
+  },
+  "homepage": "https://github.com/Rocket1184/NodeServerTest#readme"
+}
